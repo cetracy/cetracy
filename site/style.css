@@ -1,0 +1,28 @@
+.background-color{background-color: #22252A;}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #22252A;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+h1{
+    color: azure;
+}
+
+.separator {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin: 10px 0;
+    margin-top: 0%;
+    margin-left: 5%;
+
+}
+
+
+
