@@ -1,4 +1,6 @@
-.background-color{background-color: #22252A;}
+.background-color {
+    background-color: #22252A;
+}
 
 .container1 {
     display: flex;
@@ -19,13 +21,13 @@
 
 
 
-.container2{
+.container2 {
     display: flex;
     justify-content: center;
     background-color: #22252A;
 }
 
-.container-port{
+.container-port {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -33,13 +35,14 @@
     margin-top: 5%;
 
 }
-.container-landing{
+
+.container-landing {
     display: flex;
     justify-content: center;
     margin-top: 3%;
 }
 
-.container-landing img{
+.container-landing img {
     display: flex;
     justify-content: center;
     height: 150px;
@@ -47,42 +50,61 @@
     transition: all 0.3s ease-in-out;
 }
 
-.container-landing img:hover{
+.container-landing img:hover {
     transform: scale(1.1);
 
 }
 
-.container-port img{
+.container-port img {
     height: 150px;
     margin-bottom: 30%;
     transition: all 0.3s ease-in-out;
 
 }
 
-.container-port img:hover{
+.container-port img:hover {
 
     transform: scale(1.1);
 }
 
-.button1{
+.button1 {
     color: #5d6470;
     background-color: #22252A;
     border: none;
     transition: all 0.3s ease-in-out;
 }
 
-.button1:hover{
+.button1:hover {
     color: #6EFADC;
     background-color: #181a1d;
     border-radius: 8px;
     padding-left: 7rem;
     padding-right: 7rem;
-    
+
 }
 
-h1{
-    color: azure;
+.card-title {
+    display: flex;
+    justify-content: center;
+    color: #6EFADC;
 }
+
+p {
+    color: #6EFADC;
+}
+
+
+#click-here {
+    color: #5d6470;
+    display: flex;
+    justify-content: center;
+}
+
+
+#bebas-neue {
+    font-family: 'Bebas Neue', sans-serif;    display: flex;
+}
+
 
 .separator {
     width: 90%;
@@ -95,19 +117,36 @@ h1{
 
 }
 
-footer {
+.card-group {
+    margin-top: 10rem;
+}
 
-    margin-top: 8%;
-;
+.card {
+
+    background-color: #181a1d;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
 
 }
 
+.card:hover {
+    transform: scale(1.1);
+    
+}
+
+footer {
+
+    margin-top: 8%;
+
+
+}
+
+
+
+
 @media (max-width: 720px) {
     .container-port {
-      flex-direction: column;
-      height: 100%;
+        flex-direction: column;
+        height: 100%;
     }
-  }
-
-
-
+}
