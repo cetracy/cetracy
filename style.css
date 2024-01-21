@@ -73,6 +73,7 @@
 }
 
 .button1 {
+    font-weight: 600;
     font-size: 0.8rem;
     color: #6EFADC;
     background-color: #22252A;
@@ -88,7 +89,7 @@
 .button1:hover {
     color: #6EFADC;
     background-color: #181a1d;
-    border-radius: 8px;
+
     padding-left: 7rem;
     padding-right: 7rem;
 
@@ -199,3 +200,59 @@ footer {
 
     }
 }
+
+/*----------GALERIA-------------*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .image {
+    margin: 5px;
+    cursor: pointer;
+    flex: 0 1 calc(33.333% - 10px); 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .image:hover{
+    transform: scale(1.1);
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:#22252A;
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+  }
