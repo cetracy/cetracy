@@ -68,9 +68,13 @@
 }
 
 .button1 {
-    color: #5d6470;
-    background-color: #22252A;
+    color:#22252A;
+    background-color: #6EFADC;
     border: none;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 7px;
+    opacity: 70%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -132,7 +136,7 @@ p {
     background-color: #181a1d;
     margin: 20px;
     transition: all 0.3s ease-in-out;
-    margin-top: 0%;
+    margin-top: 2%;
 
 }
 
