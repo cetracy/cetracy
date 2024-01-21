@@ -177,4 +177,10 @@ footer {
         flex-direction: column;
         height: 100%;
     }
+
+    .back {
+        display: flex;
+        justify-content: center;
+
+    }
 }
