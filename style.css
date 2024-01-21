@@ -67,16 +67,23 @@
     transform: scale(1.1);
 }
 
+.container-orcamento {
+    display: flex;
+    justify-content: space-around;
+}
+
 .button1 {
-    color:#22252A;
-    background-color: #6EFADC;
-    border: none;
+    font-size: 0.8rem;
+    color: #6EFADC;
+    background-color: #22252A;
+    border-color: #6EFADC;
     border-radius: 30px;
     margin: 15px;
     padding: 7px;
-    opacity: 70%;
     transition: all 0.3s ease-in-out;
 }
+
+.button1 font{}
 
 .button1:hover {
     color: #6EFADC;
@@ -92,6 +99,9 @@
     justify-content: center;
     color: #6EFADC;
     margin-top: 10px;
+}
+a {
+    text-decoration: none;
 }
 
 p {
@@ -145,14 +155,15 @@ p {
 
 }
 
-.back img {
-    height: 13rem;
+.back {
+    display: flex;
+    justify-content: flex-start;
+    height: 3rem;
+    margin: 5%;
+    margin-bottom: 3%;
 }
 
-.back img:hover {
-
-
-}
+.back img:hover {}
 
 footer {
 
@@ -184,7 +195,7 @@ footer {
 
     .back {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
 
     }
 }
