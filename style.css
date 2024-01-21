@@ -87,6 +87,7 @@
     display: flex;
     justify-content: center;
     color: #6EFADC;
+    margin-top: 10px;
 }
 
 p {
@@ -102,7 +103,8 @@ p {
 
 
 #bebas-neue {
-    font-family: 'Bebas Neue', sans-serif;    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
 }
 
 
@@ -118,7 +120,11 @@ p {
 }
 
 .card-group {
-    margin-top: 10rem;
+
+    margin-left: 4%;
+    margin-right: 4%;
+
+
 }
 
 .card {
@@ -126,12 +132,22 @@ p {
     background-color: #181a1d;
     margin: 20px;
     transition: all 0.3s ease-in-out;
+    margin-top: 0%;
 
 }
 
 .card:hover {
     transform: scale(1.1);
-    
+
+}
+
+.back img {
+    height: 13rem;
+}
+
+.back img:hover {
+
+
 }
 
 footer {
@@ -139,6 +155,18 @@ footer {
     margin-top: 8%;
 
 
+}
+
+.separator2 {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin: 10px 0;
+    margin-top: 0%;
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-end;
 }
 
 

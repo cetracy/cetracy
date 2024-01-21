@@ -6,4 +6,8 @@ function openModal(imageSrc) {
   function closeModal() {
     document.getElementById('myModal').style.display = 'none';
   }
+
+  function voltar() {
+    window.history.back();
+}
   
