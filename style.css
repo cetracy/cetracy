@@ -151,14 +151,15 @@ p {
 
     background-color: #181a1d;
     margin: 20px;
-    transition: all 0.3s ease-in-out;
     margin-top: 2%;
+    transition: all 0.3s ease-in-out;
 
 }
 
-.card:hover {
-    transform: scale(1.1);
-
+@media only screen and (min-width: 768px) {
+    .card:hover {
+        transform: scale(1.1);
+    }
 }
 
 .back {
