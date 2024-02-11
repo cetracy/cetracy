@@ -202,6 +202,30 @@ footer {
     align-items: flex-end;
 }
 
+.icon {
+    height: 30px;
+    opacity: 20%;
+    margin: 10px;
+}
+
+.whats {
+    height: 42px;
+    opacity: 20%;
+
+}
+
+.container-icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
 
 
 
@@ -209,6 +233,7 @@ footer {
     .container-port {
         flex-direction: column;
         height: 100%;
+        margin-left: 3%;
     }
 
     .container-motion {
@@ -228,6 +253,8 @@ footer {
 
     }
 }
+
+
 
 /*----------GALERIA-------------*/
 
